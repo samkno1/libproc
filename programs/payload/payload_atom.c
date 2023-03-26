@@ -1,17 +1,3 @@
-/*
-1. receive (take picture) message from ADCS module
-
-2. start capture code, after capture done- camera
-
-3. send message to comms module via IPC that picture is taken
-
-*/
-/* Andrew Puleo's Newbie Project
- * 06/01/18
- * Stopwatch - starts timing when run, displays minutes and seconds (m:s),
- * ctrl-z starts a new lap, pressing return moves time down a line
- * */
-
 #include <fcntl.h>
 #include <polysat/polysat.h>
 #include <stdio.h>
