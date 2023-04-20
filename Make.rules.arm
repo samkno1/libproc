@@ -11,11 +11,11 @@ ifeq ($(TARGET),arm)
 	SYMBOLS=
    CFLAG_WARNS=
 else
-	LIB_PATH=/usr/local/lib
-	INC_PATH=/usr/local/include
-	BIN_PATH=/usr/local/bin
-	SBIN_PATH=/usr/local/sbin
-	ETC_PATH=/usr/local/etc
+	LIB_PATH=/usr/lib
+	INC_PATH=/usr/include
+	BIN_PATH=/usr/bin
+	SBIN_PATH=/usr/sbin
+	ETC_PATH=/usr/etc
 	STRIP=strip
 	INST_STRIP=echo
 	SYMBOLS=-g
