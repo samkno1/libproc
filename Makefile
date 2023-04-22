@@ -1,6 +1,6 @@
 # Makefile for Process Library
 
-XDRGEN?=./usr/bin/poly-xdrgen
+XDRGEN?=./poly-xdrgen
 PLAT=$(shell uname -s)
 include Make.rules.$(PLAT)
 include Make.rules.arm
